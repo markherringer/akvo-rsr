@@ -109,7 +109,7 @@ For additional details on the GNU license please see < http://www.gnu.org/licens
 		<a href="/web/terms_of_use">{% trans 'Terms of use' %}</a> |
 		<a href="/web/privacy_policy">{% trans 'Privacy policy' %}</a> |
 		<a href="/rsr/admin">{% trans 'Admin' %}</a> |
-		<a id="help">{% trans 'Help & Support' %}</a>
+		<a href="http://help.akvo.org">{% trans 'Help & Support' %}</a>
 	</div>
 	<div style="float:right"><a href="/web/contact_us">{% trans 'Contact us' %}</a></div>
 </div> <!-- #footer -->
@@ -124,6 +124,7 @@ For additional details on the GNU license please see < http://www.gnu.org/licens
 -->
 {% endif %}
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+{% comment %}
 <script type="text/javascript" charset="utf-8">
 	Tender = {
 		hideToggle: true,
@@ -131,6 +132,7 @@ For additional details on the GNU license please see < http://www.gnu.org/licens
 	}
 </script>
 <script src="http://akvo.tenderapp.com/tender_widget.js" type="text/javascript"></script>
+{% endcomment %}
 <script type="text/javascript" charset="utf-8">
 	jQ = jQuery.noConflict();
 </script>
